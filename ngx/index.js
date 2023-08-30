@@ -7,6 +7,7 @@ var AndroidPermissions = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.PERMISSION = {
             ACCESS_CHECKIN_PROPERTIES: 'android.permission.ACCESS_CHECKIN_PROPERTIES',
+            ACCESS_BACKGROUND_LOCATION: 'android.permission.ACCESS_BACKGROUND_LOCATION',
             ACCESS_COARSE_LOCATION: 'android.permission.ACCESS_COARSE_LOCATION',
             ACCESS_FINE_LOCATION: 'android.permission.ACCESS_FINE_LOCATION',
             ACCESS_LOCATION_EXTRA_COMMANDS: 'android.permission.ACCESS_LOCATION_EXTRA_COMMANDS',
@@ -91,6 +92,7 @@ var AndroidPermissions = /** @class */ (function (_super) {
             MOUNT_UNMOUNT_FILESYSTEMS: 'android.permission.MOUNT_UNMOUNT_FILESYSTEMS',
             NFC: 'android.permission.NFC',
             PERSISTENT_ACTIVITY: 'android.permission.PERSISTENT_ACTIVITY',
+            POST_NOTIFICATIONS: 'android.permission.POST_NOTIFICATIONS',
             PROCESS_OUTGOING_CALLS: 'android.permission.PROCESS_OUTGOING_CALLS',
             READ_CALENDAR: 'android.permission.READ_CALENDAR',
             READ_CALL_LOG: 'android.permission.READ_CALL_LOG',
@@ -100,6 +102,9 @@ var AndroidPermissions = /** @class */ (function (_super) {
             READ_HISTORY_BOOKMARKS: 'com.android.browser.permission.READ_HISTORY_BOOKMARKS',
             READ_INPUT_STATE: 'android.permission.READ_INPUT_STATE',
             READ_LOGS: 'android.permission.READ_LOGS',
+            READ_MEDIA_AUDIO: 'android.permission.READ_MEDIA_AUDIO',
+            READ_MEDIA_IMAGES: 'android.permission.READ_MEDIA_IMAGES',
+            READ_MEDIA_VIDEO: 'android.permission.READ_MEDIA_VIDEO',
             READ_PHONE_STATE: 'android.permission.READ_PHONE_STATE',
             READ_PROFILE: 'android.permission.READ_PROFILE',
             READ_SMS: 'android.permission.READ_SMS',
